@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+    
+}
+
+.row{
+    display: block;
+}
+
+.row:hover{
+    opacity: 0.5;
+}
+.cursos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cursos__fonte{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    gap: 5%;
+}
+
+.cursos__fonte:hover{
+    text-decoration: underline;
+}
+
+.imgVoltar{
+    padding: 0.5rem 0rem;
+
+}
+.imgVoltar:hover{
+    position: relative;
+    opacity: 0.5;
+
+}
