@@ -6,6 +6,11 @@
     padding: 0;
 }
 
+html, body {
+    background-color: darkgray;
+    min-height: 100vh;
+}
+
 header {
     background-color: black;
 }
@@ -15,9 +20,21 @@ header {
     text-align: center;
 }
 
-p {
-    
+header > h1 {
+    font-variant: small-caps;
 }
+
+header > h5 > a {
+    text-decoration: none;
+    color: white;
+}
+
+header > h5 > a:hover {
+    text-decoration: underline;
+    color: rgb(226, 218, 210);
+}
+
+
 .quebrando-linha {
     display: block;
     padding: 0;
@@ -68,4 +85,21 @@ p {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+
+footer > p > a {
+    text-decoration: none;
+    color: white;
+}
+
+footer > p > a {
+    text-decoration: underline;
+    color: rgb(226, 218, 210);
 }
