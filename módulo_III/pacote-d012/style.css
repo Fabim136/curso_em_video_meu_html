@@ -82,8 +82,8 @@ header > h5 > a:hover {
 #parallax-efecct-5{
     box-shadow: 3px 5px 4px black;
     background-image: url(./imagens/background002.jpg);
-    min-height: 200px;
-    max-height: 500px;
+    background-size: cover;
+    display: inline-block;
     
     display: flex;
     align-items: center;
