@@ -41,4 +41,6 @@ td:hover .iframe {
     display: block;
     text-decoration: underline;
     color:rgba(36, 80, 80, 0.428);
+    padding: 0px;
+    
 }
