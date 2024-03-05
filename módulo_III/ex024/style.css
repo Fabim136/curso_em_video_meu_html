@@ -37,10 +37,20 @@ tbody > tr > td > a:hover {
     display: none;
 }
 
+td {
+    border: 1px solid black;
+    padding: 5px;
+    
+}
+
 td:hover .iframe {
     display: block;
     text-decoration: underline;
     color:rgba(36, 80, 80, 0.428);
     padding: 0px;
     
+}
+
+.tabela-mudanca {
+    color: green;
 }
