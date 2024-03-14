@@ -5,20 +5,27 @@
 
 :root {
     --body-fonts: Arial, Helvetica, sans-serif;
+
+    --color-thead: #eaecf0;
+    --color-hover-link: rgba(36, 80, 80, 0.428);
+    --color-cabecalho-mudanca: green;
 }
 body {
     font-family: var(--body-fonts);
+    margin: auto;
 }
 
 
 table {
     width: 150px;
     border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
 }
 thead > tr > th {
     font-weight: bold;
     text-align: center;
-    background-color: #eaecf0;
+    background-color: var(--color-thead);
     border: 1px solid black;
     padding: 5px;
 
@@ -35,7 +42,7 @@ tbody > tr > td > a{
 
 tbody > tr > td > a:hover {
     text-decoration: underline;
-    color:rgba(36, 80, 80, 0.428);
+    color: var(--color-hover-link);
 }
 .iframe {
     display: none;
@@ -47,16 +54,8 @@ td {
     
 }
 
-td:hover .iframe {
-    display: block;
-    text-decoration: underline;
-    color:rgba(36, 80, 80, 0.428);
-    padding: 0px;
-    
-}
-
 .tabela-mudanca {
-    color: green;
+    color: var(--color-cabecalho-mudanca)
 }
 
 .bandeira {
