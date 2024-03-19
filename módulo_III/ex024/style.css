@@ -6,13 +6,17 @@
 :root {
     --body-fonts: Arial, Helvetica, sans-serif;
 
-    --color-thead: #eaecf0;
-    --color-hover-link: rgba(36, 80, 80, 0.428);
+    --color-thead: #C1D0F0;
+    --color-hover-link: #384B70;
     --color-cabecalho-mudanca: green;
+    --color-tabela-cabecalho: #313947;
+    --color-tabela-zebrado: #9FBAF0;
+    --color-texto-tabela: black;
 }
 body {
     font-family: var(--body-fonts);
     margin: auto;
+    padding-bottom: 20px;
 }
 
 
@@ -21,8 +25,26 @@ table {
     border-collapse: collapse;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
 }
+
+caption{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    background-color: var(--color-tabela-cabecalho);
+}
+
+tbody > tr:nth-child(2n) {
+    background-color:var(--color-tabela-zebrado);
+}
+
 thead > tr > th {
+    position: sticky;
+    top:0;
+}
+
+thead > tr > th, tfoot  {
     font-weight: bold;
     text-align: center;
     background-color: var(--color-thead);
@@ -37,8 +59,9 @@ tbody > tr > td{
 
 tbody > tr > td > a{
     text-decoration: none;
-    color: black;
+    color: var(--color-texto-tabela);
 }
+
 
 tbody > tr > td > a:hover {
     text-decoration: underline;
@@ -62,3 +85,13 @@ td {
     border: 1px solid #eaecf0;
     height: 10px;
 }
+
+.footer-wrap {
+    padding: 10px;
+}
+
+.campo_cabecalho {
+     text-align: center; 
+
+}
+
