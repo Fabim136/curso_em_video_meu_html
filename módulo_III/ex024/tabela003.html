@@ -5,6 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mesclagem de celulas</title>
 </head>
+
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    table {
+        border-collapse: collapse;
+        text-align: center;
+    }
+    td {
+        border: 1px solid black;
+        padding: 10px;
+        width: 100px;
+        
+    }
+</style>
 <body>
     <h1>Mesclagem de células</h1>
 
@@ -12,21 +30,34 @@
         <caption> </caption>
         <thead> 
             <tr>
-                <td> Teste 1</td>
-                <td> Teste 2</td>
-                <td> Teste 3</td>
+                <td colspan="2">A</td>
+                <td>C</td>
             </tr>
         </thead>
 
         <tbody>
             <tr>
-                <td>Chocolate</td>
+                <td>D</td>
+                <td>E</td>
+                <td rowspan="2">F</td>
+            </tr>
+
+            <tr>
+                
+                <td>H</td>
+                <td>I</td>
+            </tr>
+
+            <tr> 
+                
+                <td colspan="2">K</td>
+                <td>L</td>
             </tr>
             
         </tbody>
         <tfoot>
             <tr>
-                fim
+                <td colspan="3">fim</td>
                 <!-- <td>Fim</td> -->
             </tr>
         </tfoot>
