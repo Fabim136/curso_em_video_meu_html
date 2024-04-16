@@ -1,0 +1,64 @@
+ body {
+    background-image: url(./pacote-d013/imagens/fundo-madeira.jpg);
+    /* background-repeat: no-repeat; */
+} 
+
+main {
+    background-image: url(./pacote-d013/imagens/frame-iphone.png);
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    position:relative;
+    
+}
+
+.imagem-celular {
+    left: 50%;
+    top: 50%;
+    height: 50vh;
+    width: 50vh;
+}
+
+
+.imagem1{
+    background-image: url(./pacote-d013/imagens/logo-home.jpg);
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50px;
+    background-position: right;
+    background-size: cover;
+    
+}
+
+.imagem2{
+    background-image:url(./pacote-d013/imagens/logo-youtube.jpg);
+    width: 4rem;
+    height: 4rem;
+    background-size: cover;
+    border-radius: 50%;;
+}
+
+.imagem3 {
+    background-image: url(./pacote-d013/imagens/logo-github.jpg);
+    width: 4rem;
+    height: 4rem;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.imagem4 {
+    background-image: url(./pacote-d013/imagens/logo-twitter.jpg);
+    width: 4rem;
+    height: 4rem;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.imagem5 {
+    background-image: url(./pacote-d013/imagens/logo-facebook.jpg);
+    width: 4rem;
+    height: 4rem;
+    background-size: cover;
+    border-radius: 50%;
+}
