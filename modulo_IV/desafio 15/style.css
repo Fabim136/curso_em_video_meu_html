@@ -18,6 +18,7 @@ main {
     top: 50%;
     height: 50vh;
     width: 50vh;
+    margin: auto;
 }
 
 
@@ -28,6 +29,7 @@ main {
     border-radius: 50px;
     background-position: right;
     background-size: cover;
+    
     
 }
 
@@ -62,3 +64,66 @@ main {
     background-size: cover;
     border-radius: 50%;
 }
+
+
+@media (max-width: 440px) {
+    .row-logo-social-media {      
+            display: flex;
+            flex-direction: row;
+            justify-content: center;     
+    }
+}
+
+@media (max-width:360px) {
+   
+
+
+   /* .imagem-celular {
+        left: 50%;
+        top: 50%;
+       margin: auto;
+    } */
+
+
+    .imagem1{
+        background-image: url(./pacote-d013/imagens/logo-home.jpg);
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50px;
+        background-position: right;
+        background-size: cover;
+        
+    }
+    
+    .imagem2{
+        background-image:url(./pacote-d013/imagens/logo-youtube.jpg);
+        width: 4rem;
+        height: 4rem;
+        background-size: cover;
+        border-radius: 50%;;
+    }
+    
+    .imagem3 {
+        background-image: url(./pacote-d013/imagens/logo-github.jpg);
+        width: 4rem;
+        height: 4rem;
+        background-size: cover;
+        border-radius: 50%;
+    }
+    
+    .imagem4 {
+        background-image: url(./pacote-d013/imagens/logo-twitter.jpg);
+        width: 4rem;
+        height: 4rem;
+        background-size: cover;
+        border-radius: 50%;
+    }
+    
+    .imagem5 {
+        background-image: url(./pacote-d013/imagens/logo-facebook.jpg);
+        width: 4rem;
+        height: 4rem;
+        background-size: cover;
+        border-radius: 50%;
+    }   
+} 
