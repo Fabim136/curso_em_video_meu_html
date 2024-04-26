@@ -50,9 +50,10 @@ iframe#tela {
     
 }
 
-/*
-.imagem1 {
+
+.botao-home {
     background-image: url(./pacote-d013/imagens/logo-home.jpg);
+    top: 600px;
     width: 4rem;
     height: 4rem;
     border-radius: 50px;
@@ -62,15 +63,16 @@ iframe#tela {
 
 }
 
-.imagem2 {
+.logo-youtube {
     background-image: url(./pacote-d013/imagens/logo-youtube.jpg);
+    
     width: 4rem;
     height: 4rem;
     background-size: cover;
     border-radius: 50%;
 }
 
-.imagem3 {
+.logo-gitHub {
     background-image: url(./pacote-d013/imagens/logo-github.jpg);
     width: 4rem;
     height: 4rem;
@@ -78,7 +80,7 @@ iframe#tela {
     border-radius: 50%;
 }
 
-.imagem4 {
+.logo-twiter {
     background-image: url(./pacote-d013/imagens/logo-twitter.jpg);
     width: 4rem;
     height: 4rem;
@@ -86,7 +88,7 @@ iframe#tela {
     border-radius: 50%;
 }
 
-.imagem5 {
+.logo-facebook {
     background-image: url(./pacote-d013/imagens/logo-facebook.jpg);
     width: 4rem;
     height: 4rem;
@@ -105,4 +107,4 @@ iframe#tela {
  
 } 
     }
- */
+
