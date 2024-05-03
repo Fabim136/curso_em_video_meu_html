@@ -29,11 +29,8 @@ main {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
     width: 311px;
     height: 627px;
-
-    
     background: url(./pacote-d013/imagens/frame-iphone.png) no-repeat;
     
     
@@ -42,17 +39,26 @@ main {
 
 iframe#tela {
     position: relative;
-    left: 145px;
-    top: 68px;
+    left: 20px;
+    top: 80px;
     width: 269px;
     height: 470px;
     
     
 }
 
+section#redes-sociais > a {
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    box-sizing: border-box;
+    
+}
+
+
+
 
 .botao-home {
-    background-image: url(./pacote-d013/imagens/logo-home.jpg);
     top: 600px;
     width: 4rem;
     height: 4rem;
@@ -64,8 +70,8 @@ iframe#tela {
 }
 
 .logo-youtube {
-    background-image: url(./pacote-d013/imagens/logo-youtube.jpg);
-    
+
+    position: relative;
     width: 4rem;
     height: 4rem;
     background-size: cover;
@@ -73,7 +79,7 @@ iframe#tela {
 }
 
 .logo-gitHub {
-    background-image: url(./pacote-d013/imagens/logo-github.jpg);
+    position: relative;
     width: 4rem;
     height: 4rem;
     background-size: cover;
@@ -81,7 +87,7 @@ iframe#tela {
 }
 
 .logo-twiter {
-    background-image: url(./pacote-d013/imagens/logo-twitter.jpg);
+    position: relative;
     width: 4rem;
     height: 4rem;
     background-size: cover;
@@ -89,7 +95,15 @@ iframe#tela {
 }
 
 .logo-facebook {
-    background-image: url(./pacote-d013/imagens/logo-facebook.jpg);
+    position: relative;
+    width: 4rem;
+    height: 4rem;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.logo-instagram {
+    position: relative;
     width: 4rem;
     height: 4rem;
     background-size: cover;
@@ -97,14 +111,6 @@ iframe#tela {
 }
 
 
- @media (max-width: 440px) {
-
-.row-logo-social-media {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  
     
- 
-} 
-    }
 
