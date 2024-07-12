@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+@media print {
+    body {
+        font-family: Georgia, serif;  
+    }
+
+    main:after {
+        content: 'Fonte: www.fabianojr.com';
+    }
+}
+
+@media screen and (min-width: 768px) {
+    menu {
+        display: block;
+    }
+
+    main {
+        width: 768px
+    }
+
+    menu > ul > li {
+        display: inline-block;
+        
+    }
+}
+
+@media screen and (min-width: 992px) {
+    /* Desktop  */
+    #burguer {
+        display: none;
+    }
+    
+    main {
+        width: 992px
+    }
+    
+    .material-symbols-outlined {
+        display: none;
+    }    
+}
+
+@media screen and (min-width: 1200px) {
+    /* Grandes Telas */
+
+    main {
+        width: 1200px;
+    }
+}
